@@ -24,11 +24,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet"> -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:Noto+Sans:Castoro" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
@@ -117,7 +113,6 @@
                   <span>Paper</span>
                 </a>
               </span>
-              
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/woanderer/Neuroformer"
@@ -144,7 +139,6 @@
       </div>
     </div>
   </div>
-
 </section>
 
 <section class="hero teaser">
@@ -208,8 +202,6 @@
     <br/>
     <br/>
   </div>
-
-  <hr style="border-top: 1px solid #ccc;">
 </section>
 
 <!-- Attention Mirrors Hubb Connectivity -->
@@ -231,10 +223,7 @@
       </div>
     </div>
   </div>
-  <br/>
 </div>
-
-<hr style="border-top: 1px solid #ccc;">
 <!--/ Paper image. -->
 </section>
 
@@ -265,8 +254,6 @@
       </div>
     </div>
 
-    <hr style="border-top: 1px solid #ccc;">
-
     <!-- Simulations of Neural Activity Conidtioned on Multimodal Input. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
@@ -289,8 +276,6 @@
         <br/>
       </div>
     </div>
-
-    <hr style="border-top: 1px solid #ccc;">
 
     <!-- Simulataneous Multi-task Decoding. -->
     <div class="columns is-centered">
@@ -320,8 +305,6 @@
         <br/>
       </div>
     </div>
-
-    <hr style="border-top: 1px solid #ccc;">
 
     <!-- Multimodal Contrastive Learning For Learning Neural Latent Embeddings -->
     <div class="columns is-centered">
@@ -366,9 +349,9 @@
           <div class="column is-half">
             <h2 class="title is-3">Easily Incorporate New Modalities</h2>
             <p>
-               Easily customize your model's input
-               modalities and decoding options by simply editing the configuration <strong>file</strong>. You can specify which modalities to use, whether to decode them or use them as input, and 
-               in which block to include them. For more details, visit our repo <a href="https://github.com/woanderer/Neuroformer">here</a>.
+              Toggle what modalities to use, wether to decode or use as input,
+              and in what block you want them in just by editing the <strong>file.</strong>
+              For more information, check out the repo <a href="https://github.com/woanderer/Neuroformer">here</a>.
             </p>
           </div>
         <br/>
@@ -386,17 +369,16 @@
 
         <div class="content has-text-justified">
           <p>
-            Other great concurrent works have also explored scaling neural data training using transformers.
+            Other great models have also recently explored scaling neural data training using transformers.
             <a href="https://www.biorxiv.org/content/10.1101/2023.09.18.558113v1">Neural Data Transformer 2: Multi-context Pretraining for Neural Spiking Activity</a>,
             <a href="https://arxiv.org/abs/2310.16046">A Unified, Scalable Framework for Neural Population Decoding</a>
           </p>
           <p>
-            In contrast to these works, Neuroformer:
+            The difference between their works and ours is that while they train transformers on neural data, they do not:
           </p>
           <ul>
-            <li>Leverages generative pretraining of neural data to learn from and predict neural responses, rather than only train to decode behavior from neural activity.</li>
+            <li>Leverage generative pretraining of neural data to learn from and predict neural responses, but rather only decode behavior from neural activity.</li>
             <li>Scale to complex multimodal inputs like video.</li>
-            <li>Incorporate multi-modal contrastive learning to align modalities and learn useful representations.</li>
         </div>
       </div>
     </div>
