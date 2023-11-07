@@ -31,12 +31,6 @@ body {
 .publication-title {
 }
 
-.normal-text {
-  font-size: 1em; /* Adjust as needed */
-  font-weight: normal;
-  /* Add other styles as needed */
-}
-
 .publication-banner {
   max-height: parent;
 
